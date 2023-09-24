@@ -1,4 +1,11 @@
- size(500,500);
+int startX =0;
+int startY=150;
+int endX=0;
+int endY=150;
+boolean backwards = false;
+void setup()
+{
+  size(500,500);
   strokeWeight (10);
   background (0);
   frameRate (50);
